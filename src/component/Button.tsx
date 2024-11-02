@@ -5,7 +5,10 @@ interface ButtonProps {
 
 function Button({ bgColor, fontColor }: ButtonProps) {
   return (
-    <button className="py-1 px-4 text-sm font-medium rounded" style={{ backgroundColor: bgColor, color: fontColor }}>
+    <button
+      className="py-1.5 px-4 text-sm font-semibold rounded"
+      style={{ backgroundColor: bgColor, color: fontColor }}
+    >
       New Issue
     </button>
   );
